@@ -85,6 +85,5 @@ showHUD[] =
 
 #include "config.cpp"
 #include "CfgRemoteExec.hpp"
-#include "SM\TraderPlus\SM_TraderPlus.hpp"
 
 
