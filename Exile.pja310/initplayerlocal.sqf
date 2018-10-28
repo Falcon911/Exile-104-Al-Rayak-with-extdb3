@@ -2,7 +2,10 @@
  * Created with Exile Mod 3DEN Plugin
  * www.exilemod.com
  */
-
+ 
+//GADD_Apps
+GADD_SalvageVehicle = compileFinal preprocessFileLineNumbers "GADD_Apps\VehicleSalvage\VehicleSalvage.sqf";
+execVM "GADD_Apps\VehicleSalvage\Customize.sqf";
 if (!hasInterface || isServer) exitWith {};
 
 // 63 NPCs
@@ -101,3 +104,4 @@ private _npcs = [
     _trader addEventHandler ["AnimDone", {_this call ExileClient_object_trader_event_onAnimationDone}];
 }
 forEach _npcs;
+

@@ -200,6 +200,8 @@ class MRC_GL_Scope   { quality = 1; price = 159; };
 	///////////////////////////////////////////////////////////////////////////////
 	// Ammunition - 
 	///////////////////////////////////////////////////////////////////////////////
+	class 20Rnd_AA12_Pellets      { quality = 2; price = 150; };
+	class 20Rnd_AA12_74Slug      { quality = 2; price = 300; };
 class KA_15Rnd_45ACP_Mag      { quality = 2; price = 95; };
 class KA_17Rnd_9x19_Mag      { quality = 2; price = 95; };
 class KA_17Rnd_9x19_Subsonic_Mag      { quality = 2; price = 95.1; };
@@ -273,6 +275,7 @@ class KA_20Rnd_46x30_FMJ      { quality = 2; price = 101; };
 class KA_20Rnd_46x30_AP      { quality = 2; price = 101; };
 class KA_20Rnd_46x30_APT      { quality = 2; price = 101; };
 class KA_20Rnd_46x30_Subsonic      { quality = 2; price = 101; };
+class 7Rnd_50_AE				{ quality = 1; price = 51; };
 class KA_NTW20_3rnd_MK106_HEI      { quality = 2; price = 62; };
 class KA_NTW20_3rnd_MK107_API      { quality = 2; price = 62; };
 class KA_NTW20_3rnd_MK108_APT      { quality = 2; price = 62; };
@@ -370,13 +373,13 @@ class 8Rnd_Mossberg_590_PPA      { quality = 2; price = 92; };
 class 8Rnd_Mossberg_590_Slug      { quality = 2; price = 92; };
 class KA_M7290      { quality = 2; price = 66; };
 class KA_M84      { quality = 2; price = 133; };
-class KA_M7A3      { quality = 2; price = 133; };
-class KA_MKnKJ      { quality = 2; price = 133; };
+class KA_M7A3      { quality = 2; price = 500; };
+class KA_MKnKJ      { quality = 2; price = 3000; };
 class KA_M14      { quality = 2; price = 133; };
 class KA_M814      { quality = 2; price = 133; };
 class KA_MK2      { quality = 2; price = 59; };
-class KA_40mm_M7A3      { quality = 2; price = 149; };
-class KA_40mm_MKnKJ      { quality = 2; price = 149; };
+class KA_40mm_M7A3      { quality = 2; price = 500; };
+class KA_40mm_MKnKJ      { quality = 2; price = 3000; };
 class KA_40mm_M14      { quality = 2; price = 149; };
 class KA_40mm_M814      { quality = 2; price = 149; };
 class KA_6Rnd_40mm_M7A3      { quality = 2; price = 149; };
@@ -431,6 +434,8 @@ class KA_20Rnd_STs_130_Ball      { quality = 2; price = 98; };
 class KA_20Rnd_STs_130PT_SPR      { quality = 2; price = 101; };
 class KA_20Rnd_STs_130PT2_Solid_Bronze_SPR      { quality = 2; price = 102; };
 class KA_20Rnd_STs_130VPS_AP      { quality = 2; price = 109; };
+class 10Rnd_BZ_762x39_API      { quality = 1; price = 49; };
+class 10Rnd_BZ_762x39_AP      { quality = 1; price = 49; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Smoke & HE
@@ -481,3 +486,4 @@ class MRC_GL_Green      { quality = 1; price = 1659; };
 class KA_DSR50      { quality = 3; price = 7000; };
 class KA_CS5      { quality = 2; price = 3250; };
 class KA_M134 			{quality = 3; price = 30000; };
+class 500Rnd_762x51_Belt	{quality = 3; price = 5000; };

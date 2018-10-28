@@ -16,7 +16,7 @@
 	class B_MRAP_01_hmg_F  								{ quality = 3; price = 55000; };
 	class B_Quadbike_01_F 								{ quality = 1; price = 2500; };
 	class B_T_MRAP_01_F  								{ quality = 3; price = 50000; };
-	//class B_T_MRAP_01_gmg_F   							{ quality = 3; price = 60000; };
+	//class B_T_MRAP_01_gmg_F   					 	{ quality = 3; price = 60000; };
 	//class B_T_MRAP_01_hmg_F  							{ quality = 3; price = 55000; };
 	class C_Hatchback_01_F								{ quality = 3; price = 12000; };
 	class C_Hatchback_01_beigecustom_F					{ quality = 3; price = 12000; };
@@ -127,7 +127,7 @@
 	class I_G_Offroad_01_armed_F						{ quality = 2; price = 38000; };
 	class I_G_Van_01_fuel_F								{ quality = 2; price = 30000; };
 	class I_G_Van_01_transport_F						{ quality = 2; price = 20000; };
-	class I_Truck_02_ammo_F	                            { quality = 2; price = 58000; };
+	class I_Truck_02_ammo_F	                            { quality = 2; price = 48000; };
 	class I_Truck_02_box_F 	                      	  	{ quality = 2; price = 20000; };
 	class I_Truck_02_covered_F							{ quality = 2; price = 20000; };
 	class I_Truck_02_fuel_F								{ quality = 2; price = 30000; };
@@ -246,7 +246,6 @@
 	class C_Heli_light_01_wasp_F                        { quality = 1; price = 22000; };
 	class C_Heli_light_01_wave_F                        { quality = 1; price = 22000; };
 	class I_Heli_light_03_unarmed_F 					{ quality = 1; price = 22000; };
-	class O_Heli_Light_02_dynamicLoadout_F              { quality = 1; price = 70000; };
 	class O_Heli_Transport_04_F							{ quality = 1; price = 40000; };
 	class O_Heli_Transport_04_ammo_F					{ quality = 1; price = 60000; };
 	class O_Heli_Transport_04_ammo_black_F 				{ quality = 1; price = 58000; };
@@ -268,7 +267,7 @@
 	// Arma 3 Armed Helicopters
 	///////////////////////////////////////////////////////////////////////////////
 	class B_Heli_Attack_01_F 							{ quality = 1; price = 160000; };
-	//class B_Heli_Attack_01_dynamicLoadout_F				{ quality = 1; price = 160000; };	//new dynamic version
+	class B_Heli_Attack_01_dynamicLoadout_F				{ quality = 5; price = 270000; };	//new dynamic version
 	class B_Heli_Light_01_armed_F						{ quality = 1; price = 110000; };
 	class B_Heli_Light_01_dynamicLoadout_F				{ quality = 1; price = 110000; };	//new dynamic version
 	class B_Heli_Transport_01_F 						{ quality = 1; price = 160000; };
@@ -277,23 +276,24 @@
 	class B_Heli_Transport_03_black_F					{ quality = 1; price = 160000; };
 	class I_Heli_Transport_02_F 						{ quality = 1; price = 160000; };
 	class I_Heli_light_03_F 							{ quality = 1; price = 110000; };
-	class I_Heli_light_03_dynamicLoadout_F				{ quality = 1; price = 110000; };	//new dynamic version
+	class I_Heli_light_03_dynamicLoadout_F				{ quality = 4; price = 240000; };	//new dynamic version
 	class O_Heli_Attack_02_F 							{ quality = 1; price = 160000; };
 	class O_Heli_Attack_02_black_F						{ quality = 1; price = 160000; };
-	//class O_Heli_Attack_02_dynamicLoadout_F				{ quality = 1; price = 160000; };	//new dynamic version
+	class O_Heli_Attack_02_dynamicLoadout_F				{ quality = 1; price = 160000; };	//new dynamic version
 	//class O_Heli_Attack_02_dynamicLoadout_black_F		{ quality = 1; price = 160000; };	//new dynamic version
 	class O_Heli_Light_02_F 							{ quality = 1; price = 110000; };
 	class O_Heli_Light_02_unarmed_F 					{ quality = 1; price = 110000; };
 	class O_Heli_Light_02_v2_F							{ quality = 1; price = 110000; };
+	class O_Heli_Light_02_dynamicLoadout_F              { quality = 4; price = 240000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Arma 3 Planes
 	///////////////////////////////////////////////////////////////////////////////
 	//class B_Plane_CAS_01_F 	                			{ quality = 1; price = 550000; };
 	//class B_Plane_CAS_01_dynamicLoadout_F	  			{ quality = 1; price = 550000; };	//new dynamic version
-	class GNT_C185										{ quality = 1; price = 10000; };
-	class GNT_C185F										{ quality = 1; price = 10000; };
-	class GNT_C185T										{ quality = 1; price = 30000; };
+	//class GNT_C185										{ quality = 1; price = 10000; };
+	//class GNT_C185F										{ quality = 1; price = 10000; };
+	//class GNT_C185T										{ quality = 1; price = 30000; };
 	//class I_Plane_Fighter_03_AA_F	                	{ quality = 1; price = 550000; };
 	//class I_Plane_Fighter_03_CAS_F	                	{ quality = 1; price = 550000; };
 	class I_Plane_Fighter_03_dynamicLoadout_F   	   	{ quality = 1; price = 550000; };	//new dynamic version

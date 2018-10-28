@@ -2262,9 +2262,16 @@ class CfgInteractionMenus
 				condition = "call ExileClient_object_vehicle_interaction_show";
 				action = "_this call ExileClient_object_vehicle_drain";
 			};
+		
+		// Salvage a vehicle
+       		class GADDSalvage: ExileAbstractAction
+        	{
+            	title = "<t color='#ff0000'>GADD Salvage Vehicle</t>";
+            	condition = "(!(alive (ExileClientInteractionObject)))";
+            	action = "_this call GADD_SalvageVehicle";
+			};
 		};
 	};
-
 	class Air
 	{
 		target = "Air";
@@ -2727,8 +2734,7 @@ class CfgInteractionMenus
 				action = "['HideBody', (_this select 0)] call ExileClient_action_execute";
 			};
 		};
-	};
-	
+	};		
 	class Animal
 	{
 		targetType = 2;
@@ -2745,6 +2751,7 @@ class CfgInteractionMenus
 		};
 	};
 };
+
 /**
  * Classname is used for reference
  * name is displayed in crafting requirements
@@ -2971,7 +2978,7 @@ class CfgSimulation
 			0: Use Exile's built in simulation system (Same system in 1.0.3 and below)
 			1: Use Dynamic Simulation
 	*/
-	enableDynamicSimulation = 1;
+	enableDynamicSimulation = 0;
 	
 	/*
 		Simulation distance settings

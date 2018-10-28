@@ -8,12 +8,15 @@ if hasInterface then
 	[] ExecVM "VEMFr_client\sqf\initClient.sqf"; // Client-side part of VEMFr
 };
 
-diag_log "==================================================================================";
-diag_log "========================Starting Insistar custom missions======================================";
-diag_log "==================================================================================";
 //BuryCorpse
+diag_log "==================================================================================";
+diag_log "========================Starting Bury corpse======================================";
+diag_log "==================================================================================";
 VNM_fnc_Hidebody = compileFinal preprocessFileLineNumbers "Scripts\BuryCorpse.sqf";
-//VCom 
-[] execVM "Vcom\VcomInit.sqf";
+//Ammo dump
+diag_log "==================================================================================";
+diag_log "========================Starting Ammo to SQL======================================";
+diag_log "==================================================================================";
+Bones_fnc_getVehicleLoadout = compileFinal (preprocessFileLineNumbers "Custom\ammoSave\Bones_fnc_getVehicleLoadout.sqf");
 
 

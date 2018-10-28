@@ -248,11 +248,11 @@
 	///////////////////////////////////////////////////////////////////////////////
 	// Weapon Attachments - Foregrips
 	///////////////////////////////////////////////////////////////////////////////
-	class rhsusf_acc_grip1									{ quality = 4; price = 100; };
-	class rhsusf_acc_grip2 									{ quality = 4; price = 100; };
-	class rhsusf_acc_grip2_tan 								{ quality = 4; price = 100; };
-	class rhsusf_acc_grip3 									{ quality = 4; price = 100; };
-	class rhsusf_acc_grip3_tan 								{ quality = 4; price = 100; };
+	//class rhsusf_acc_grip1									{ quality = 4; price = 100; };
+	//class rhsusf_acc_grip2 									{ quality = 4; price = 100; };
+	//class rhsusf_acc_grip2_tan 								{ quality = 4; price = 100; };
+	//class rhsusf_acc_grip3 									{ quality = 4; price = 100; };
+	//class rhsusf_acc_grip3_tan 								{ quality = 4; price = 100; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Weapon Attachments - Rail
@@ -328,6 +328,8 @@
 	class rhsusf_acc_SpecterDR_OD 							{ quality = 3; price = 200; };
 	class rhsusf_acc_SpecterDR_D 							{ quality = 3; price = 200; };
 	class rhsusf_acc_SpecterDR_A_3d 						{ quality = 3; price = 200; };
+	class rhsusf_acc_su230a_mrds_c							{ quality = 3; price = 300; };
+	class rhsusf_acc_su230a_mrds							{ quality = 3; price = 300; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Ammunition

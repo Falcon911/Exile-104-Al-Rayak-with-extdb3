@@ -53,7 +53,7 @@
 			"RHSAmmunition",
 			"RHSAssaultRifles",
 			"RHSBipodAttachments",
-			"RHSForegripAttachments",
+			//"RHSForegripAttachments",
 			"RHSLightMachineGuns",
 			"RHSMuzzleAttachments",
 			"RHSOpticAttachments",
@@ -100,12 +100,11 @@
 			"Navigation",
 			"RHSExplosives",
 			"RHSLauncherAmmo",
-			"RHSLaunchers",
-			"RHSStaticMG",		//not recommended except for militarised servers due to rockets/mortar etc
+			"RHSLaunchers",		//not recommended except for militarised servers due to rockets/mortar etc
 			"RHSUGLAmmo",
-			"Smokes",
+			//"RHSStaticMG",
 			"StaticMGs",
-			"UAVs"
+			"Smokes"
 			
 			// Whatever your last line is make sure it doesn't have a comma! <<<<<<<<<<<<<<<< <<<<<<<<<<<<<<<< <<<<<<<<<<<<<<<<
 		};
@@ -197,6 +196,7 @@
 			//"A3Armed",
 			//"A3Cars",
 			//"A3Trucks",
+			"TravelWhip",
 			"Cars",
 			"Trucks",
 			"CUPUnarmed",
@@ -231,7 +231,7 @@
 		categories[] =
 		{
 			"A3armedChoppers",
-			"A3unarmedChoppers",
+			//"A3unarmedChoppers",
 			//"CChoppers",
 			//"CPlanes",
 			"CUPChoppers",
@@ -284,17 +284,18 @@
 		showWeaponFilter = 0;
 		categories[] =
 		{
-			"ACENVG",
-			"FirstAid",
-			"Drinks",
-			"Food",
-			"NonVeganFood",
-			"ExtendedBaseMod",
-			"Hardware",
-			"TravelAmmo",
-			"TravelLauncher",
-			"TravelItems",
-			"TravelSnipers"
+			//"ACENVG",
+			//"FirstAid",
+			//"Drinks",
+			//"Food",
+			//"NonVeganFood",
+			//"Hardware",
+			//"UAVs",
+			//"ExtendedBaseMod",
+			//"TravelAmmo",
+			//"TravelLauncher",
+			//"TravelItems",
+			//"TravelSnipers"
 			
 		};
 	};
@@ -314,7 +315,7 @@
 		showWeaponFilter = 0;
 		categories[] =
 		{
-			"A3Planes",
+			//"A3Planes",
 			"CUPPlanes",
 			"GREFPlanes",
 			"Planes",

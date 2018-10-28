@@ -15,11 +15,11 @@
 	class CUP_arifle_AKS74									{ quality = 1; price = 765; };
 	class CUP_arifle_AKS74U									{ quality = 1; price = 749; };
 	class CUP_arifle_AKS_Gold								{ quality = 1; price = 915; };
-	class CUP_arifle_CZ805_A1								{ quality = 1; price = 903; };
-	class CUP_arifle_CZ805_A2								{ quality = 1; price = 925; };
-	class CUP_arifle_CZ805_B								{ quality = 1; price = 927; };
-	class CUP_arifle_CZ805_B_GL								{ quality = 1; price = 1157; };
-	class CUP_arifle_CZ805_GL								{ quality = 1; price = 1183; };
+	class CUP_arifle_CZ805_A1								{ quality = 2; price = 1803; };
+	class CUP_arifle_CZ805_A2								{ quality = 2; price = 1825; };
+	class CUP_arifle_CZ805_B								{ quality = 2; price = 1827; };
+	class CUP_arifle_CZ805_B_GL								{ quality = 2; price = 1957; };
+	class CUP_arifle_CZ805_GL								{ quality = 2; price = 1983; };
 	class CUP_arifle_FNFAL									{ quality = 2; price = 1201; };
 	class CUP_arifle_FNFAL_railed							{ quality = 2; price = 1251; };
 	class CUP_arifle_G36A									{ quality = 1; price = 820; };
@@ -264,15 +264,15 @@
 	///////////////////////////////////////////////////////////////////////////////
 	//  Launchers
 	///////////////////////////////////////////////////////////////////////////////
- class CUP_launch_9K32Strela								{ quality = 2; price = 5000; }; // Dupe bug
+	class CUP_launch_9K32Strela								{ quality = 2; price = 11000; }; // Dupe bug
 	class CUP_launch_FIM92Stinger							{ quality = 1; price = 2000; }; // Dupe bug
 	class CUP_launch_Igla									{ quality = 1; price = 2000; }; // Dupe bug
 	class CUP_launch_Javelin								{ quality = 1; price = 2000; }; // Dupe bug
 	class CUP_launch_M136									{ quality = 1; price = 2000; }; // Dupe bug
-	class CUP_launch_M47									{ quality = 3; price = 9000; }; // Dupe bug
+	class CUP_launch_M47									{ quality = 3; price = 14000; }; // Dupe bug
 	class CUP_launch_MAAWS									{ quality = 1; price = 2000; }; // Dupe bug
 	class CUP_launch_MAAWS_Scope							{ quality = 1; price = 2000; }; // Dupe bug
-	class CUP_launch_Metis									{ quality = 3; price = 9000; }; // Dupe bug
+	class CUP_launch_Metis									{ quality = 3; price = 14000; }; // Dupe bug
 	class CUP_launch_Mk153Mod0								{ quality = 1; price = 2000; }; // Dupe bug
 	class CUP_launch_Mk153Mod0_SMAWOptics					{ quality = 1; price = 2000; }; // Dupe bug
 	class CUP_launch_NLAW									{ quality = 1; price = 2000; }; // Dupe bug
@@ -357,8 +357,8 @@
 	class CUP_8Rnd_B_Saiga12_74Slug_M						{ quality = 1; price = 10; };
 
     //// Launcher
-	class CUP_1Rnd_HEDP_M203								{ quality = 1; price = 50; };
-	class CUP_1Rnd_HE_M203									{ quality = 1; price = 50; };
+	class CUP_1Rnd_HEDP_M203								{ quality = 1; price = 250; };
+	class CUP_1Rnd_HE_M203									{ quality = 1; price = 250; };
 	class CUP_1Rnd_SmokeGreen_M203							{ quality = 1; price = 50; };
 	class CUP_1Rnd_SmokeRed_M203							{ quality = 1; price = 50; };
 	class CUP_1Rnd_SmokeYellow_M203							{ quality = 1; price = 50; };
@@ -367,13 +367,13 @@
 	class CUP_6Rnd_FlareRed_M203							{ quality = 1; price = 50; };
 	class CUP_6Rnd_FlareWhite_M203							{ quality = 1; price = 50; };
 	class CUP_6Rnd_FlareYellow_M203							{ quality = 1; price = 50; };
-	class CUP_6Rnd_HE_M203									{ quality = 1; price = 50; };
+	class CUP_6Rnd_HE_M203									{ quality = 1; price = 750; };
 	class CUP_6Rnd_SmokeGreen_M203							{ quality = 1; price = 50; };
 	class CUP_6Rnd_SmokeRed_M203							{ quality = 1; price = 50; };
 	class CUP_6Rnd_SmokeYellow_M203							{ quality = 1; price = 50; };
 	class CUP_6Rnd_Smoke_M203								{ quality = 1; price = 50; };
-	class CUP_AT13_M										{ quality = 1; price = 5000; };
-	class CUP_Dragon_EP1_M									{ quality = 1; price = 5000; };
+	class CUP_AT13_M										{ quality = 2; price = 9000; };
+	class CUP_Dragon_EP1_M									{ quality = 2; price = 9000; };
 	class CUP_FlareGreen_M203								{ quality = 1; price = 50; };
 	class CUP_FlareRed_M203									{ quality = 1; price = 50; };
 	class CUP_FlareWhite_M203								{ quality = 1; price = 50; };
@@ -392,7 +392,7 @@
 	class CUP_SMAW_HEAA_M									{ quality = 1; price = 1000; };
 	class CUP_SMAW_HEDP_M									{ quality = 1; price = 1000; };
 	class CUP_Stinger_M										{ quality = 1; price = 1000; };
-	class CUP_Strela_2_M									{ quality = 1; price = 5000; };
+	class CUP_Strela_2_M									{ quality = 2; price = 8000; };
 
     //// Handgun
 	class CUP_10Rnd_9x19_Compact							{ quality = 1; price = 8; };
@@ -454,19 +454,19 @@
 	class CUP_100Rnd_TE1_Yellow_Tracer_556x45_BetaCMag		{ quality = 1; price = 10; };
 	class CUP_20Rnd_556x45_Stanag							{ quality = 1; price = 10; };
 	class CUP_20Rnd_762x51_B_SCAR							{ quality = 1; price = 10; };
-	class CUP_20Rnd_762x51_CZ805B							{ quality = 1; price = 10; };
+	class CUP_20Rnd_762x51_CZ805B							{ quality = 2; price = 100; };
 	class CUP_20Rnd_762x51_DMR								{ quality = 1; price = 10; };
 	class CUP_20Rnd_762x51_FNFAL_M							{ quality = 1; price = 10; };
-	class CUP_20Rnd_TE1_Green_Tracer_762x51_CZ805B			{ quality = 1; price = 10; };
+	class CUP_20Rnd_TE1_Green_Tracer_762x51_CZ805B			{ quality = 2; price = 100; };
 	class CUP_20Rnd_TE1_Green_Tracer_762x51_DMR				{ quality = 1; price = 10; };
 	class CUP_20Rnd_TE1_Green_Tracer_762x51_SCAR			{ quality = 1; price = 10; };
 	class CUP_20Rnd_TE1_Red_Tracer_762x51_CZ805B			{ quality = 1; price = 10; };
 	class CUP_20Rnd_TE1_Red_Tracer_762x51_DMR				{ quality = 1; price = 10; };
 	class CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR				{ quality = 1; price = 10; };
-	class CUP_20Rnd_TE1_White_Tracer_762x51_CZ805B			{ quality = 1; price = 10; };
+	class CUP_20Rnd_TE1_White_Tracer_762x51_CZ805B			{ quality = 2; price = 100; };
 	class CUP_20Rnd_TE1_White_Tracer_762x51_DMR				{ quality = 1; price = 10; };
 	class CUP_20Rnd_TE1_White_Tracer_762x51_SCAR			{ quality = 1; price = 10; };
-	class CUP_20Rnd_TE1_Yellow_Tracer_762x51_CZ805B			{ quality = 1; price = 10; };
+	class CUP_20Rnd_TE1_Yellow_Tracer_762x51_CZ805B			{ quality = 2; price = 100; };
 	class CUP_20Rnd_TE1_Yellow_Tracer_762x51_DMR			{ quality = 1; price = 10; };
 	class CUP_20Rnd_TE1_Yellow_Tracer_762x51_SCAR			{ quality = 1; price = 10; };
 	class CUP_30Rnd_545x39_AK_M								{ quality = 1; price = 10; };

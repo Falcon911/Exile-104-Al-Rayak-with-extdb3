@@ -56,7 +56,7 @@ class ExtendedBaseMod
 		///////////////////////// V0.1.2
 		//"Land_Tank_rust_F_Kit",
 		"Land_ShelvesMetal_F_Kit",
-		"Land_Cargo_Tower_V2_F_Kit",
+		//"Land_Cargo_Tower_V2_F_Kit",
 		"Land_FuelStation_Feed_F_Kit",
 		//"Land_BagBunker_Large_F_Kit",
 		"ShootingPos_F_Kit",

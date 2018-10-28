@@ -41,10 +41,10 @@
 	///////////////////////////////////////////////////////////////////////////////
 	// GAZ-66
 	//////////////////////////////////////////////////////////////////////////////
-	class rhs_gaz66_ammo_msv						{ quality = 1; price = 7050; };
-	class rhs_gaz66_ammo_vdv						{ quality = 1; price = 7050; };
-	class rhs_gaz66_ammo_vmf 						{ quality = 1; price = 7050; };
-	class rhs_gaz66_ammo_vv							{ quality = 1; price = 7050; };
+	class rhs_gaz66_ammo_msv						{ quality = 1; price = 47050; };
+	class rhs_gaz66_ammo_vdv						{ quality = 1; price = 47050; };
+	class rhs_gaz66_ammo_vmf 						{ quality = 1; price = 47050; };
+	class rhs_gaz66_ammo_vv							{ quality = 1; price = 47050; };
 	class rhs_gaz66_ap2_msv							{ quality = 1; price = 7050; };
 	class rhs_gaz66_ap2_vdv							{ quality = 1; price = 7050; };
 	class rhs_gaz66_ap2_vmf							{ quality = 1; price = 7050; };
@@ -147,8 +147,8 @@
 	class rhsusf_M1078A1P2_wd_flatbed_fmtv_usarmy			{ quality = 1; price = 7200; };
 	class rhsusf_M1078A1P2_wd_fmtv_usarmy					{ quality = 1; price = 7200; };
 	class rhsusf_M1078A1P2_wd_open_fmtv_usarmy				{ quality = 1; price = 7200; };
-	class rhsusf_M1078A1R_SOV_M2_D_fmtv_socom				{ quality = 3; price = 7200; };
-	class rhsusf_M1078A1R_SOV_M2_WD_fmtv_socom				{ quality = 3; price = 7200; };
+	class rhsusf_M1078A1R_SOV_M2_D_fmtv_socom				{ quality = 3; price = 47200; };
+	class rhsusf_M1078A1R_SOV_M2_WD_fmtv_socom				{ quality = 3; price = 47200; };
 	class rhsusf_M1083A1P2_B_D_flatbed_fmtv_usarmy			{ quality = 1; price = 7200; };
 	class rhsusf_M1083A1P2_B_D_fmtv_usarmy					{ quality = 1; price = 7200; };
 	class rhsusf_M1083A1P2_B_D_open_fmtv_usarmy				{ quality = 1; price = 7200; };
@@ -295,6 +295,8 @@
 	//	BMP
 	/////////////////////////////////////////////////////////////////////////////
 	class rhs_bmp3_late_msv							{ quality = 1; price = 93200; };
+	
+	
 
 	/////////////////////////////////////////////////////////////////////////////
 	//	BTR
@@ -323,8 +325,8 @@
 	//////////////////////////////////////////////////////////////////////////////
 	//class RHS_M2A3   								{ quality = 4; price = 12290; };
 	//class RHS_M2A3_BUSKI 							{ quality = 4; price = 123290; };
-	//class rhs_2s3_tv								{ quality = 4; price = 223300; };
-	//class rhsusf_m142_usarmy_d						{ quality = 4; price = 525673; };
+	class rhs_2s3_tv								{ quality = 4; price = 223300; };
+	class rhsusf_m142_usarmy_d						{ quality = 4; price = 525673; };
 	class rhs_bmd1_chdkz   							{ quality = 4; price = 93260; };
 	class rhs_bmd2_chdkz   							{ quality = 4; price = 93260; };
 	class rhs_bmd4_vdv   							{ quality = 4; price = 123200; };
@@ -357,7 +359,7 @@
 	//class rhs_t90_tv								{ quality = 4; price = 253550; };
 	//class rhs_t90a_tv								{ quality = 4; price = 253550; };
 	class rhs_zsu234_chdkz							{ quality = 4; price = 100000; };
-	class rhsusf_M1117_W							{ quality = 4; price = 75150; };
+	class rhsusf_M1117_W							{ quality = 4; price = 57150; };
 	//class rhsusf_m109_usarmy						{ quality = 4; price = 75150; };<-cluster
 	//class rhsusf_m109d_usarmy						{ quality = 4; price = 75150; };<--cluster
 	class rhsusf_m113_usarmy						{ quality = 4; price = 75150; };
@@ -417,8 +419,8 @@
     ///////////////////////////////////////////////////////////////////////////////
 	// Mi28
 	//////////////////////////////////////////////////////////////////////////////
-    class rhs_mi28n_vvsc      { quality = 5; price = 302045; };
-    class rhs_mi28n_s13_vvsc      { quality = 5; price = 302045; };
+    class rhs_mi28n_vvsc      { quality = 5; price = 262045; };
+    class rhs_mi28n_s13_vvsc      { quality = 5; price = 262045; };
     
 	///////////////////////////////////////////////////////////////////////////////
 	// Ka-52
@@ -461,7 +463,7 @@
     class RHS_Mi24V_UPK23_vvsc      { quality = 3; price = 252045; };
     class RHS_Mi24V_AT_vvsc      { quality = 3; price = 252045; };
     class RHS_Mi24P_CAS_vvsc      { quality = 3; price = 252045; };
-	class RHSGREF_Mi24g_UPK23     { quality = 1; price = 252045; };
+	class RHSGREF_Mi24g_UPK23     { quality = 4; price = 252045; };
 	
 	///////////////////////////////////////////////////////////////////////////////
 	// AH64 Apache
@@ -479,10 +481,11 @@
 	///////////////////////////////////////////////////////////////////////////////
 	// UH1Y
 	//////////////////////////////////////////////////////////////////////////////
-	class RHS_UH1Y              { quality = 3; price = 53052; };
-    class RHS_UH1Y_FFAR         { quality = 3; price = 110040; };
+	class RHS_UH1Y              { quality = 3; price = 110040; };
+    class RHS_UH1Y_FFAR         { quality = 3; price = 70040; };
     class RHS_UH1Y_d_GS         { quality = 3; price = 110040; };
     class RHS_UH1Y_UNARMED      { quality = 2; price = 22040; };
+	class rhs_uh1h_hidf_gunship    { quality = 2; price = 65040; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Planes
@@ -495,19 +498,21 @@
     class RHS_Su25SM_KH29_vvsc      { quality = 5; price = 250560; };
     class RHS_Su25SM_CAS_vvsc      { quality = 5; price = 250560; };
     class RHS_Su25SM_Cluster_vvsc      { quality = 5; price = 250560; };
-    class rhs_l159_CDF      { quality = 2; price = 100555; };
-    class rhs_l159_CDF_plamen      { quality = 2; price = 112555; };
-    class rhs_l159_CDF_CAP      { quality = 2; price = 100555; };
-    class rhs_l159_CDF_CAS      { quality = 2; price = 116555; };
-    class rhs_l39_cdf      { quality = 2; price = 60555; };
+    class rhs_l159_CDF      { quality = 2; price = 160555; };
+    class rhs_l159_CDF_plamen      { quality = 2; price = 172555; };
+    class rhs_l159_CDF_CAP      { quality = 2; price = 160555; };
+    class rhs_l159_CDF_CAS      { quality = 2; price = 176555; };
+    class rhs_l39_cdf      { quality = 2; price = 130555; };
     class RHS_T50_vvs_052      { quality = 5; price = 310555; };
+	class rhs_mig29s_vmf		{ quality = 5; price = 310575; };
+	class rhs_mig29sm_vmf		{ quality = 5; price = 310575; };
 
 	////////////////////////////////////////////////////////////////////////////////
 	////////////////////////////////////////////////////////////////////////////////
-	class RHS_MELB_AH6M_H      { quality = 3; price = 199035; };
-    class RHS_MELB_AH6M_L      { quality = 3; price = 91035; };
-    class RHS_MELB_AH6M_M      { quality = 3; price = 181035; };
-    class RHS_MELB_AH6M        { quality = 3; price = 82035; };
+	class RHS_MELB_AH6M_H      { quality = 3; price = 119035; };
+    class RHS_MELB_AH6M_L      { quality = 3; price = 101035; };
+    class RHS_MELB_AH6M_M      { quality = 3; price = 111035; };
+    class RHS_MELB_AH6M        { quality = 3; price = 92035; };
     class RHS_MELB_MH6M      { quality = 2; price = 13035; };
 
 	//class rhs_mi28n_s13_vvs                    		{ quality = 1; price = 150000; };
@@ -515,10 +520,10 @@
 	//class rhs_mi28n_vvs                        		{ quality = 1; price = 150000; };
 	//class rhs_mi28n_vvsc                       		{ quality = 1; price = 150000; };
 	////////////////////////////////////////////////////////////////////////////////////
-	class rhsusf_mrzr4_d_mud						{ quality = 1; price = 2500; };
-	class rhsusf_mrzr4_d							{ quality = 1; price = 2500; };
-	class rhsusf_mrzr4_w							{ quality = 1; price = 2500; };
-	class rhsusf_mrzr4_w_mud						{ quality = 1; price = 2500; };
+	class rhsusf_mrzr4_d_mud						{ quality = 1; price = 5500; };
+	class rhsusf_mrzr4_d							{ quality = 1; price = 5500; };
+	class rhsusf_mrzr4_w							{ quality = 1; price = 5500; };
+	class rhsusf_mrzr4_w_mud						{ quality = 1; price = 5500; };
 
 	////////////////////////////////////////////////////////////////////////////////////
 	class rhsusf_M1232_M2_usarmy_d        		    { quality = 1; price = 75200; };

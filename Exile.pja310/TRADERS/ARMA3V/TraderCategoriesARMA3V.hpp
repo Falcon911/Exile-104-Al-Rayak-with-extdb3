@@ -287,7 +287,6 @@
 			"C_Heli_light_01_wasp_F",
 			"C_Heli_light_01_wave_F",
 			"I_Heli_light_03_unarmed_F",
-			"O_Heli_Light_02_dynamicLoadout_F",
 			"O_Heli_Transport_04_F",
 			"O_Heli_Transport_04_ammo_F",
 			"O_Heli_Transport_04_ammo_black_F",
@@ -314,23 +313,24 @@
 		items[] =
 		{
 			//"B_Heli_Attack_01_F",							// disabled for newer version
-			//"B_Heli_Attack_01_dynamicLoadout_F",
+			"B_Heli_Attack_01_dynamicLoadout_F",
 			//"B_Heli_Light_01_armed_F",					// disabled for newer version
-			"B_Heli_Light_01_dynamicLoadout_F",
+			//"B_Heli_Light_01_dynamicLoadout_F",
 			"B_Heli_Transport_01_F",
 			"B_Heli_Transport_01_camo_F",
-			"B_Heli_Transport_03_F",
-			"B_Heli_Transport_03_black_F",
-			"I_Heli_Transport_02_F",
+			//"B_Heli_Transport_03_F",
+			//"B_Heli_Transport_03_black_F",
+			//"I_Heli_Transport_02_F",
 			//"I_Heli_light_03_F",							// disabled for newer version
 			"I_Heli_light_03_dynamicLoadout_F",
 			//"O_Heli_Attack_02_F",							// disabled for newer version
 			//"O_Heli_Attack_02_black_F",					// disabled for newer version
-			//"O_Heli_Attack_02_dynamicLoadout_F",
 			//"O_Heli_Attack_02_dynamicLoadout_black_F",
-			"O_Heli_Light_02_F",
-			"O_Heli_Light_02_unarmed_F",
-			"O_Heli_Light_02_v2_F"
+			//"O_Heli_Light_02_F",
+			//"O_Heli_Light_02_unarmed_F",
+			//"O_Heli_Light_02_v2_F",
+			//"O_Heli_Attack_02_dynamicLoadout_F",
+			"O_Heli_Light_02_dynamicLoadout_F"
 		};
 	};
 
@@ -342,12 +342,12 @@
 		{
 			//"B_Plane_CAS_01_F",						// disabled for newer version
 			//"B_Plane_CAS_01_dynamicLoadout_F",
-			"GNT_C185",
-			"GNT_C185F",
-			"GNT_C185T",
+			//"GNT_C185",
+			//"GNT_C185F",
+			//"GNT_C185T",
 			//"I_Plane_Fighter_03_AA_F",
 			//"I_Plane_Fighter_03_CAS_F",
-			"I_Plane_Fighter_03_dynamicLoadout_F"
+			//"I_Plane_Fighter_03_dynamicLoadout_F"
 			//"O_Plane_CAS_02_F",						// disabled for newer version
 			//"O_Plane_CAS_02_dynamicLoadout_F"
 		};

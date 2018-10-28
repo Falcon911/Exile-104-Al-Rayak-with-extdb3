@@ -157,7 +157,7 @@ class Land_Pavement_wide_F_Kit								{ quality = 1; price = 5000; sellPrice = 5
 class Land_Pavement_wide_corner_F_Kit						{ quality = 1; price = 5000; sellPrice = 50; };
 
 ///////////////////////// V0.2.4
-class Exile_ConcreteMixer_Kit								{ quality = 3; price = 250000; sellPrice = 15000; };
+class Exile_ConcreteMixer_Kit								{ quality = 3; price = 250000; sellPrice = 10000; };
 //class Flag_CSAT_F_Kit										{ quality = 1; price = 5000; sellPrice = 50; };
 class Land_GarbageContainer_closed_F_Kit					{ quality = 1; price = 2000; sellPrice = 50; };
 class Land_Metal_rack_F_Kit									{ quality = 1; price = 2000; sellPrice = 250; };

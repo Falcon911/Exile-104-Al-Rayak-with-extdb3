@@ -330,7 +330,7 @@
 			"rhsusf_rg33_usmc_d",
 			"rhsusf_rg33_usmc_wd",
 			//"rhs_sprut_vdv",
-			//"rhs_2s3_tv",
+			"rhs_2s3_tv",
 			"rhs_bmd1_chdkz",
 			"rhs_bmd2_chdkz",
 			"rhs_bmd4_vdv",
@@ -401,6 +401,7 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[]=
 		{
+			"rhs_uh1h_hidf_gunship",
 			"RHS_AH1Z",
 			"RHS_AH1Z_CS",
 			"RHS_AH1Z_GS",
@@ -420,9 +421,9 @@
 			//"RHS_CH_47F_10",
 			"RHS_CH_47F_light",
 			//"RHS_Ka52_UPK23_vvs",
-			"RHS_Ka52_UPK23_vvsc",
+			//"RHS_Ka52_UPK23_vvsc",
 			//"RHS_Ka52_vvs",
-			"RHS_Ka52_vvsc",
+			//"RHS_Ka52_vvsc",
 			"RHS_MELB_AH6M",
 			"RHS_MELB_AH6M_H",
 			"RHS_MELB_AH6M_M",
@@ -505,8 +506,8 @@
 			//"rhs_mi28n_s13_vvs",
 			"rhs_mi28n_s13_vvsc",
 			//"rhs_mi28n_vvs",
-			"rhs_mi28n_vvsc",
-			"rhsusf_CH53E_USMC",
+			"rhs_mi28n_vvsc"
+			//"rhsusf_CH53E_USMC",
 			//"rhsusf_CH53E_USMC_D"
 			//"RHS_MELB_AH6M_L",
 		};
@@ -532,6 +533,8 @@
             "rhs_l159_CDF_CAS",
             "rhs_l39_cdf",
             "RHS_T50_vvs_052",
+			"rhs_mig29s_vmf",
+			"rhs_mig29sm_vmf"
 		};
 	};
 

@@ -140,10 +140,10 @@
 "U_BG_leader",
 "U_IG_leader",
 "U_I_G_resistanceLeader_F",
-"U_I_FullGhillie_ard",
-"U_I_FullGhillie_lsh",
-"U_I_FullGhillie_sard",
-"U_I_GhillieSuit",
+//"U_I_FullGhillie_ard",
+//"U_I_FullGhillie_lsh",
+//"U_I_FullGhillie_sard",
+//"U_I_GhillieSuit",
 "U_I_Wetsuit",
 "U_I_HeliPilotCoveralls",
 "U_I_pilotCoveralls"
@@ -501,7 +501,7 @@
 			"muzzle_snds_338_black",
 //"muzzle_snds_338_green",
 //"muzzle_snds_338_sand",
-//"muzzle_snds_93mmg",
+"muzzle_snds_93mmg",
 //"muzzle_snds_93mmg_tan",
 "muzzle_snds_acp",
 "muzzle_snds_B",
@@ -530,9 +530,25 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-			"O_HMG_01_support_F",
+			//"O_HMG_01_support_F",
 			//"O_HMG_01_support_high_F", // Does not seem to work with HMG01, only the lower version does
-			"O_HMG_01_weapon_F"
+			//"O_HMG_01_weapon_F",
+			"RHS_Podnos_Bipod_Bag",
+			"RHS_Podnos_Gun_Bag",
+			"rhs_M252_Bipod_Bag",
+			"rhs_M252_Gun_Bag",
+			"rhs_TOW_Tripod_Bag",
+			"rhs_Tow_Gun_Bag",
+			"RHS_Kord_Tripod_Bag",
+			"RHS_Kord_Gun_Bag",
+			"RHS_DShkM_TripodHigh_Bag",
+			"RHS_DShkM_Gun_Bag",
+			"RHS_M2_Tripod_Bag",
+			"RHS_M2_Gun_Bag",
+			"RHS_AGS30_Tripod_Bag",
+			"RHS_AGS30_Gun_Bag",
+			"RHS_Mk19_Tripod_Bag",
+			"RHS_Mk19_Gun_Bag"
 		};
 	};
 
@@ -579,6 +595,7 @@
 			"Exile_Item_CodeLock",
 			"Exile_Item_DuctTape",
 			"Exile_Item_ExtensionCord",
+			"Exile_Item_Rope",
 			"Exile_Item_FuelCanisterEmpty",
 			"Exile_Item_WaterCanisterEmpty",
 			"Exile_Item_JunkMetal",
@@ -591,6 +608,8 @@
 			"Exile_Item_Cement",
 			"Exile_Item_Laptop",
 			"Exile_Item_Sand",
+			"Exile_Item_PortableGeneratorKit",
+			"Exile_Item_SafeSmallKit",
 			"Exile_Item_SafeKit"
 
 			/*
@@ -605,7 +624,6 @@
 			"Exile_Item_FireExtinguisher",
 			"Exile_Item_Hammer",
 			"Exile_Item_OilCanister",
-			"Exile_Item_Rope",
 			"Exile_Item_SleepingMat",
 			"Exile_Item_SprayCan_Black",
 			"Exile_Item_SprayCan_Blue",
@@ -728,11 +746,15 @@
 "Exile_Melee_Axe",
 "Exile_Melee_Shovel",
 "ItemCompass",
+"ItemMap",
+"Exile_Item_XM8",
 "Exile_Item_CanOpener",
 "Exile_Item_Handsaw",
 "Exile_Item_Matches",
+"Exile_Item_CookingPot",
 "Exile_Item_Pliers",
 "Exile_Item_Grinder",
+"Exile_Magazine_Battery",
 "Exile_Item_Foolbox",
 "Exile_Item_CordlessScrewdriver",
 "Exile_Item_FireExtinguisher",
@@ -798,9 +820,9 @@
 			//"O_NVGoggles_ghex_F",
 			//"O_NVGoggles_hex_F",
 			//"O_NVGoggles_urb_F",
-			"Exile_Uniform_Wetsuit_NATO",
-			"Exile_Uniform_Wetsuit_CSAT",
-			"Exile_Uniform_Wetsuit_AAF",
+			"U_B_Wetsuit",
+			"U_O_Wetsuit",
+			"U_I_Wetsuit",
 			"Exile_Vest_Rebreather_NATO",
 			"Exile_Vest_Rebreather_AAF",
 			"Exile_Vest_Rebreather_CSAT"
@@ -848,10 +870,6 @@
 "B_OutdoorPack_blu",
 "B_OutdoorPack_tan",
 "B_Parachute",
-"B_Bergen_mcamo_F",
-"B_Bergen_dgtl_F",
-"B_Bergen_hex_F",
-"B_Bergen_tna_F",
 "B_AssaultPack_tna_F",
 "B_FieldPack_ghex_F",
 "B_ViperHarness_blk_F",
@@ -880,7 +898,7 @@
 "10Rnd_762x54_Mag",
 "10Rnd_93x64_DMR_05_Mag",
 "11Rnd_45ACP_Mag",
-"130Rnd_338_Mag",
+//"130Rnd_338_Mag",
 "150Rnd_762x54_Box",
 "150Rnd_762x54_Box_Tracer",
 "150Rnd_93x64_Mag",
@@ -1310,7 +1328,10 @@
 		{
 			"Exile_Plane_AN2_Green",
 			"Exile_Plane_Ceasar",
-			"Exile_Plane_Cessna"
+			"Exile_Plane_Cessna",
+			"GNT_C185T",
+			"bwi_a3_at6b_cap",
+			"bwi_a3_at6b"
 		};
 	};
 
@@ -1366,11 +1387,13 @@
             "CUP_10Rnd_127x99_m107",
             "CUP_5Rnd_127x108_KSVK_M",
 "rhsusf_mag_10Rnd_STD_50BMG_M33",
-"rhsusf_mag_10Rnd_STD_50BMG_mk211",
+//"rhsusf_mag_10Rnd_STD_50BMG_mk211",
 "rhs_5Rnd_338lapua_t5000",
 "5Rnd_127x108_APDS_Mag",
 "5Rnd_127x108_Mag",
 "7Rnd_408_Mag",
+"rhsusf_mag_10Rnd_STD_50BMG_M33",
+"rhsusf_5Rnd_300winmag_xm2010",
 "Exile_Magazine_5Rnd_127x108_Bullet_Cam_Mag",
 "Exile_Magazine_5Rnd_127x108_APDS_Bullet_Cam_Mag",
 "Exile_Magazine_7Rnd_408_Bullet_Cam_Mag",
@@ -1416,6 +1439,20 @@
 "H_PilotHelmetFighter_B",
 "H_PilotHelmetFighter_O",
 "H_PilotHelmetFighter_I",
+"CUP_U_I_Ghillie_Top",
+"CUP_U_O_TK_Ghillie",
+"CUP_U_O_TK_Ghillie_Top",
+"U_I_FullGhillie_ard",
+"U_I_FullGhillie_lsh",
+"U_I_FullGhillie_sard",
+"U_I_GhillieSuit",
+"CUP_U_B_GER_Ghillie",
+"CUP_U_B_GER_Fleck_Ghillie",
+"CUP_U_B_USMC_Ghillie_WDL",
+"B_Bergen_mcamo_F",
+"B_Bergen_dgtl_F",
+"B_Bergen_hex_F",
+"B_Bergen_tna_F",
 "rhsusf_ihadss",
 "Exile_Headgear_GasMask",
 "KA_MCU",
@@ -1454,10 +1491,31 @@
 "rhs_weap_t5000",
 "Exile_Weapon_ksvk",
 "Exile_Weapon_m107",
+"rhs_weap_XM2010",
+"rhs_weap_XM2010_d",
+"rhs_weap_XM2010_sa",
+"rhs_weap_XM2010_wd",
+"rhs_weap_M107_w",
+"rhs_weap_M107",
+"rhs_weap_M107_d",
 			"srifle_GM6_F",
 			"srifle_GM6_camo_F",
 			"srifle_LRR_F",
 			"srifle_LRR_camo_F"
+			
+		};
+	};
+	
+	class TravelWhip
+	{
+		name = "Rare Whips";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] =
+		{
+			"rhsusf_mrzr4_d_mud",
+			"rhsusf_mrzr4_w_mud",
+			"rhsusf_mrzr4_d",
+			"rhsusf_mrzr4_w"
 			
 		};
 	};

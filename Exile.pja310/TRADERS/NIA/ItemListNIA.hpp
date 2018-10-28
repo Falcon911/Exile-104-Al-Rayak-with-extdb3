@@ -252,6 +252,7 @@ class hlc_lmg_minimi      { quality = 2; price = 2656; };
 class hlc_lmg_minimi_railed      { quality = 2; price = 2655; };
 class hlc_lmg_minimipara      { quality = 2; price = 2663; };
 class hlc_lmg_mk48      { quality = 1; price = 2028; };
+class hlc_lmg_mk48mod1      { quality = 1; price = 2058; };
 class hlc_m249_pip1      { quality = 2; price = 2655; };
 class hlc_m249_pip2      { quality = 2; price = 2658; };
 class hlc_m249_pip3      { quality = 2; price = 2655; };

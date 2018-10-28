@@ -394,14 +394,14 @@ class rhsusf_ihadss      { quality = 4; price = 4500; };
 	///////////////////////////////////////////////////////////////////////////////
 	// Weapon Attachments - Foregrips
 	///////////////////////////////////////////////////////////////////////////////
-	class rhsusf_acc_grip1									{ quality = 4; price = 100; };
-	class rhsusf_acc_grip2 									{ quality = 4; price = 100; };
-	class rhsusf_acc_grip2_tan 								{ quality = 4; price = 100; };
-	class rhsusf_acc_grip3 									{ quality = 4; price = 100; };
-	class rhsusf_acc_grip3_tan 								{ quality = 4; price = 100; };
-	class rhs_acc_grip_rk2 									{ quality = 4; price = 100; };
-	class rhs_acc_grip_rk6 									{ quality = 4; price = 100; };
-	class rhs_acc_grip_ffg2 								{ quality = 4; price = 100; };
+	class rhsusf_acc_grip1									{ quality = 4; price = 100; sellPrice = 1;};
+	class rhsusf_acc_grip2 									{ quality = 4; price = 100; sellPrice = 1;};
+	class rhsusf_acc_grip2_tan 								{ quality = 4; price = 100; sellPrice = 1;};
+	class rhsusf_acc_grip3 									{ quality = 4; price = 100; sellPrice = 1;};
+	class rhsusf_acc_grip3_tan 								{ quality = 4; price = 100; sellPrice = 1;};
+	class rhs_acc_grip_rk2 									{ quality = 4; price = 100; sellPrice = 1;};
+	class rhs_acc_grip_rk6 									{ quality = 4; price = 100; sellPrice = 1; };
+	class rhs_acc_grip_ffg2 								{ quality = 4; price = 100; sellPrice = 1;};
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Weapon Attachments - Rail
@@ -509,6 +509,7 @@ class rhsusf_ihadss      { quality = 4; price = 4500; };
 	class rhsusf_acc_premier 								{ quality = 5; price = 600; };
 	class rhsusf_acc_premier_anpvs27 						{ quality = 5; price = 2500; };
 	class rhsusf_acc_premier_low 							{ quality = 5; price = 600; };
+	class rhsusf_acc_su230a_mrds							{ quality = 2; price = 500; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Ammunition
@@ -562,6 +563,9 @@ class rhsusf_5Rnd_00Buck      { quality = 1; price = 46; };
 class rhsusf_5Rnd_FRAG      { quality = 1; price = 51; };
 class rhsusf_5Rnd_HE      { quality = 1; price = 52; };
 class rhsusf_5Rnd_Slug      { quality = 1; price = 48; };
+class rhsusf_20Rnd_762x51_SR25_m993_Mag      { quality = 1; price = 52; };
+class rhsusf_20Rnd_762x51_SR25_m118_special_Mag      { quality = 1; price = 52; };
+class rhsusf_20Rnd_762x51_SR25_m62_Mag      { quality = 1; price = 52; };
 class rhsusf_5Rnd_762x51_m118_special_Mag      { quality = 1; price = 46; };
 class rhsusf_5Rnd_762x51_m993_Mag      { quality = 1; price = 46; };
 class rhsusf_5Rnd_762x51_m62_Mag      { quality = 1; price = 51; };
@@ -751,9 +755,9 @@ class rhs_weap_t5000      { quality = 4; price = 5059; };
 	class rhs_weap_rpg26  							{ quality = 3; price = 7500; };
 	class rhs_weap_rpg7  							{ quality = 3; price = 7500; };
 	class rhs_weap_rshg2  							{ quality = 3; price = 7500; };
-	class rhs_weap_igla 							{ quality = 3; price = 7500; };
-	class rhs_weap_fgm148 							{ quality = 3; price = 9000; };
-	class rhs_weap_fim92 							{ quality = 3; price = 7500; };
+	class rhs_weap_igla 							{ quality = 3; price = 12500; };
+	class rhs_weap_fgm148 							{ quality = 5; price = 20000; };
+	class rhs_weap_fim92 							{ quality = 4; price = 15000; };
 	class rhs_weap_M136 							{ quality = 2; price = 3500; };
 	class rhs_weap_M136_hedp 						{ quality = 2; price = 3500; };
 	class rhs_weap_M136_hp 							{ quality = 2; price = 3500; };
@@ -771,19 +775,19 @@ class rhs_weap_t5000      { quality = 4; price = 5059; };
 	class rhs_rpg7_PG7VR_mag						{ quality = 1; price = 3000; };
 	class rhs_rpg7_TBG7V_mag						{ quality = 1; price = 3000; };
 	class rhs_rpg7_OG7V_mag							{ quality = 1; price = 3000; };
-	class rhs_mag_9k32_rocket						{ quality = 1; price = 3000; };
-	class rhs_mag_9k38_rocket						{ quality = 1; price = 3000; };
+	class rhs_mag_9k32_rocket						{ quality = 2; price = 9000; };
+	class rhs_mag_9k38_rocket						{ quality = 2; price = 9000; };
 	// Added by ElShotte
 	class rhs_rpg7_type69_airburst_mag 				{ quality = 3; price = 3000; };
-	class rhs_fgm148_magazine_AT 					{ quality = 3; price = 9000; };
-	class rhs_fim92_mag 							{ quality = 3; price = 6000; };
+	class rhs_fgm148_magazine_AT 					{ quality = 3; price = 10000; };
+	class rhs_fim92_mag 							{ quality = 3; price = 10000; };
 	class rhs_m136_mag 								{ quality = 2; price = 3000; sellPrice = 1; };
 	class rhs_m136_hedp_mag 						{ quality = 2; price = 3000; sellPrice = 1; };
 	class rhs_M136_hp_mag 							{ quality = 2; price = 3000; sellPrice = 1; };
 	class rhs_m72a7_mag 							{ quality = 2; price = 2000; sellPrice = 1;  };
 	class rhs_mag_smaw_HEAA 						{ quality = 3; price = 3000; };
 	class rhs_mag_smaw_HEDP 						{ quality = 3; price = 3000; };
-	class rhs_mag_smaw_SR 							{ quality = 3; price = 3000; };
+	class rhs_mag_smaw_SR 							{ quality = 3; price = 300; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Mines
@@ -828,8 +832,8 @@ class rhs_weap_t5000      { quality = 4; price = 5059; };
 	// Unerbarrel GL Ammunition
 	///////////////////////////////////////////////////////////////////////////////
 	// Added by ElShotte
-	class rhs_mag_M433_HEDP								{ quality = 4; price = 50; };
-	class rhs_mag_M397_HET								{ quality = 4; price = 50; };
+	class rhs_mag_M433_HEDP								{ quality = 4; price = 250; };
+	class rhs_mag_M397_HET								{ quality = 4; price = 250; };
 	class rhs_mag_m4009									{ quality = 4; price = 50; };
 	class rhs_mag_m576									{ quality = 4; price = 50; };
 	class rhs_mag_M585_white							{ quality = 4; price = 50; };

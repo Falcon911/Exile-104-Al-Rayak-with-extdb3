@@ -3825,7 +3825,7 @@ class Pumpstation: Exile_AbstractCraftingRecipe
 	category = "Supply";
 };
 
-class CargoTowerBig: Exile_AbstractCraftingRecipe
+/*class CargoTowerBig: Exile_AbstractCraftingRecipe
 {
 	name = "Cargo Tower Big";
 	pictureItem = "Land_Cargo_Tower_V2_F_Kit";
@@ -3847,7 +3847,7 @@ class CargoTowerBig: Exile_AbstractCraftingRecipe
 		"Exile_Item_Foolbox"
 	};
 	category = "Buildings";
-};
+};*/
 
 class MetalShelf: Exile_AbstractCraftingRecipe
 {

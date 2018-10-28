@@ -49,7 +49,7 @@
             "CUP_optic_PechenegScope",
             "CUP_optic_MAAWS_Scope",
             "CUP_optic_SMAW_Scope",
-            "CUP_optic_AN_PAS_13c2",
+            //"CUP_optic_AN_PAS_13c2", <<-thermal
             "CUP_optic_LeupoldMk4",
             "CUP_optic_HoloBlack",
             "CUP_optic_HoloWdl",
@@ -90,8 +90,8 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] =
 		{
-			"CUP_20Rnd_B_AA12_Pellets",
-            "CUP_20Rnd_B_AA12_74Slug",
+			//"CUP_20Rnd_B_AA12_Pellets",
+            //"CUP_20Rnd_B_AA12_74Slug",
             //"CUP_20Rnd_B_AA12_HE",
             "CUP_8Rnd_B_Beneli_74Slug",
             "CUP_8Rnd_B_Saiga12_74Slug_M",

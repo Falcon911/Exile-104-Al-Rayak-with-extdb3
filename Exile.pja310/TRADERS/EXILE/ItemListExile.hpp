@@ -21,7 +21,7 @@ class U_I_CombatUniform_shortsleeve      { quality = 2; price = 100; };
 class U_I_CombatUniform_tshirt      { quality = 2; price = 100; };
 class U_I_OfficerUniform      { quality = 2; price = 100; };
 class U_I_G_Story_Protagonist_F      { quality = 2; price = 60; };
-class Exile_Uniform_Woodland      { quality = 2; price = 100; };
+class Exile_Uniform_Woodland      { quality = 3; price = 500; };
 class U_C_HunterBody_grn      { quality = 2; price = 80; };
 class U_IG_Guerilla1_1      { quality = 2; price = 140; };
 class U_IG_Guerilla2_1      { quality = 2; price = 100; };
@@ -41,10 +41,10 @@ class U_I_G_resistanceLeader_F      { quality = 2; price = 100; };
 class U_I_FullGhillie_ard      { quality = 6; price = 5000; };
 class U_I_FullGhillie_lsh      { quality = 6; price = 5000; };
 class U_I_FullGhillie_sard      { quality = 6; price = 5000; };
-class U_I_GhillieSuit      { quality = 3; price = 130; };
-class Exile_Uniform_Wetsuit_NATO      { quality = 3; price = 1300; };
-class Exile_Uniform_Wetsuit_CSAT      { quality = 3; price = 1300; };
-class Exile_Uniform_Wetsuit_AAF      { quality = 3; price = 1300; };
+class U_I_GhillieSuit      { quality = 6; price = 5000; };
+class U_B_Wetsuit      { quality = 3; price = 1300; };
+class U_O_Wetsuit      { quality = 3; price = 1300; };
+class U_I_Wetsuit      { quality = 3; price = 1300; };
 	///////////////////////////////////////////////////////////////////////////////
 	// Bandolliers
 	///////////////////////////////////////////////////////////////////////////////
@@ -406,6 +406,22 @@ class muzzle_snds_M      { quality = 2; price = 390; };
 	///////////////////////////////////////////////////////////////////////////////
 	class O_HMG_01_support_F 						{ quality = 4; price = 1000; };
 	class O_HMG_01_weapon_F 						{ quality = 4; price = 5000; };
+			class RHS_Podnos_Bipod_Bag						{ quality = 6; price = 1000; };
+			class RHS_Podnos_Gun_Bag						{ quality = 6; price = 8000; };
+			class rhs_M252_Bipod_Bag						{ quality = 6; price = 1000; };
+			class rhs_M252_Gun_Bag						{ quality = 6; price = 8000; };
+			class rhs_TOW_Tripod_Bag						{ quality = 5; price = 1000; };
+			class rhs_Tow_Gun_Bag						{ quality = 5; price = 9000; };
+			class RHS_Kord_Tripod_Bag						{ quality = 3; price = 1000; };
+			class RHS_Kord_Gun_Bag						{ quality = 3; price = 4000; };
+			class RHS_DShkM_TripodHigh_Bag						{ quality = 3; price = 1000; };
+			class RHS_DShkM_Gun_Bag						{ quality = 3; price = 4000; };
+			class RHS_M2_Tripod_Bag						{ quality = 3; price = 1000; };
+			class RHS_M2_Gun_Bag						{ quality = 3; price = 4000; };
+			class RHS_AGS30_Tripod_Bag						{ quality = 4; price = 1000; };
+			class RHS_AGS30_Gun_Bag						{ quality = 4; price = 5000; };
+			class RHS_Mk19_Tripod_Bag						{ quality = 4; price = 1000; };
+			class RHS_Mk19_Gun_Bag						{ quality = 4; price = 5000; };
 	// Does not seem to work with HMG01, only the lower version does
 	//class O_HMG_01_support_high_F 				{ quality = QUALITY_LEVEL_9000; price = 5000; };
 
@@ -442,7 +458,7 @@ class optic_Yorris      { quality = 1; price = 148; };
 	///////////////////////////////////////////////////////////////////////////////
 	class Exile_Item_CamoTentKit					{ quality = 1; price = 250; };
 	class Exile_Item_CodeLock						{ quality = 1; price = 5000; };
-	class Exile_Item_DuctTape						{ quality = 1; price = 300; };
+	class Exile_Item_DuctTape						{ quality = 1; price = 800; };
 	class Exile_Item_ExtensionCord					{ quality = 1; price = 40; };
 	class Exile_Item_FuelCanisterEmpty				{ quality = 1; price = 40; };
 	class Exile_Item_WaterCanisterEmpty				{ quality = 1; price = 40; };
@@ -451,13 +467,15 @@ class optic_Yorris      { quality = 1; price = 148; };
 	class Exile_Item_MetalBoard						{ quality = 1; price = 600; };
 	class Exile_Item_MetalPole						{ quality = 1; price = 800; };
 	class Exile_Item_MetalScrews					{ quality = 1; price = 100; };
-	class Exile_Item_Rope							{ quality = 1; price = 20; };
+	class Exile_Item_Rope							{ quality = 1; price = 50; };
 	class Exile_Item_SafeKit						{ quality = 4; price = 25000; };
+	class Exile_Item_SafeSmallKit					{ quality = 2; price = 10000; };
 	class Exile_Item_BaseCameraKit				{ quality = 2; price = 5000; };
 	class Exile_Item_Cement						{ quality = 1; price = 20; };
 	class Exile_Item_Laptop						{ quality = 2; price = 9000; };
 	class Exile_Item_MetalWire					{ quality = 1; price = 100; };
 	class Exile_Item_Sand							{ quality = 1; price = 20; };
+	class Exile_Item_PortableGeneratorKit			{ quality = 1; price = 2000; };
 
 	// Added in 1.0.3, but not used
 	//class Exile_Item_MetalHedgehogKit				{ quality = 1; price = 1200; };
@@ -538,10 +556,10 @@ class optic_Yorris      { quality = 1; price = 148; };
 	///////////////////////////////////////////////////////////////////////////////
 	// First Aid
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Item_Bandage	                    { quality = 2; price = 100; };
+	class Exile_Item_Bandage	                    { quality = 1; price = 100; };
 	class Exile_Item_Heatpack	                    { quality = 1; price = 50; };
-	class Exile_Item_InstaDoc                       { quality = 5; price = 1250; };
-	class Exile_Item_Vishpirin						{ quality = 3; price = 300; };
+	class Exile_Item_InstaDoc                       { quality = 3; price = 1250; };
+	class Exile_Item_Vishpirin						{ quality = 1; price = 300; };
 
 	class Exile_Item_Defibrillator				{ quality = 1; price = 7500; };
 
@@ -553,9 +571,11 @@ class Exile_Melee_Shovel      { quality = 1; price = 365; };
 class Exile_Item_CanOpener      { quality = 1; price = 995; };
 class Exile_Item_Handsaw      { quality = 1; price = 980; };
 class Exile_Item_Matches     { quality = 1; price = 180; };
+class Exile_Item_CookingPot     { quality = 1; price = 180; };
 class Exile_Item_Pliers      { quality = 1; price = 990; };
-class Exile_Item_Grinder      { quality = 1; price = 970; };
-class Exile_Item_Foolbox      { quality = 1; price = 950; };
+class Exile_Item_Grinder      { quality = 1; price = 1500; };
+class Exile_Magazine_Battery      { quality = 1; price = 1500; };
+class Exile_Item_Foolbox      { quality = 1; price = 2000; };
 class Exile_Item_CordlessScrewdriver      { quality = 1; price = 970; };
 class Exile_Item_FireExtinguisher      { quality = 1; price = 970; };
 class Exile_Item_Hammer      { quality = 1; price = 990; };
@@ -581,7 +601,7 @@ class rhs_assault_umbts_engineer      { quality = 1; price = 2500; };
 	// Navigation
 	///////////////////////////////////////////////////////////////////////////////
 	class Binocular									{ quality = 1; price = 40; };
-	class Exile_Item_MobilePhone					{ quality = 6; price = 500; };
+	class Exile_Item_MobilePhone					{ quality = 6; price = 5000; };
 	class Exile_Item_XM8							{ quality = 2; price = 20; };
 	class ItemCompass								{ quality = 1; price = 16; };
 	class ItemGPS									{ quality = 2; price = 40; };
@@ -599,8 +619,8 @@ class rhs_assault_umbts_engineer      { quality = 1; price = 2500; };
 	///////////////////////////////////////////////////////////////////////////////
 	// Watch out for a Walter fart! He has gas!
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Headgear_GasMask					{ quality = 3; price = 5000; };
-	class KA_MCU								{ quality = 3; price = 5000; };
+	class Exile_Headgear_GasMask					{ quality = 3; price = 500; };
+	class KA_MCU								{ quality = 3; price = 2000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Rebreather
@@ -655,10 +675,10 @@ class B_HuntingBackpack      { quality = 1; price = 270; };
 class B_OutdoorPack_blk      { quality = 1; price = 270; };
 class B_OutdoorPack_blu      { quality = 1; price = 270; };
 class B_OutdoorPack_tan      { quality = 1; price = 270; };
-class B_Bergen_mcamo_F      { quality = 4; price = 790; };
-class B_Bergen_dgtl_F      { quality = 4; price = 790; };
-class B_Bergen_hex_F      { quality = 4; price = 790; };
-class B_Bergen_tna_F      { quality = 4; price = 790; };
+class B_Bergen_mcamo_F      { quality = 4; price = 2790; };
+class B_Bergen_dgtl_F      { quality = 4; price = 2790; };
+class B_Bergen_hex_F      { quality = 4; price = 2790; };
+class B_Bergen_tna_F      { quality = 4; price = 2790; };
 class B_AssaultPack_tna_F      { quality = 1; price = 390; };
 class B_FieldPack_ghex_F      { quality = 2; price = 470; };
 class B_ViperHarness_blk_F      { quality = 3; price = 595; };
@@ -823,26 +843,26 @@ class Exile_Magazine_5Rnd_127x108_KSVK      { quality = 1; price = 509; };
 	// Explosives
 	///////////////////////////////////////////////////////////////////////////////
 class HandGrenade      { quality = 1; price = 250; };
-class MiniGrenade      { quality = 1; price = 214; };
-class B_IR_Grenade      { quality = 1; price = 92; };
-class O_IR_Grenade      { quality = 1; price = 92; };
-class I_IR_Grenade      { quality = 1; price = 92; };
-class 1Rnd_HE_Grenade_shell      { quality = 1; price = 768; };
-class 3Rnd_HE_Grenade_shell      { quality = 1; price = 744; };
-class APERSBoundingMine_Range_Mag      { quality = 2; price = 384; };
-class APERSMine_Range_Mag      { quality = 2; price = 184; };
-class APERSTripMine_Wire_Mag      { quality = 2; price = 284; };
-class ClaymoreDirectionalMine_Remote_Mag      { quality = 2; price = 784; };
-class DemoCharge_Remote_Mag      { quality = 2; price = 884; };
-class IEDLandBig_Remote_Mag      { quality = 2; price = 924; };
-class IEDLandSmall_Remote_Mag      { quality = 2; price = 1064; };
-class IEDUrbanBig_Remote_Mag      { quality = 2; price = 1124; };
-class IEDUrbanSmall_Remote_Mag      { quality = 2; price = 1114; };
-class SatchelCharge_Remote_Mag      { quality = 2; price = 1924; };
-class SLAMDirectionalMine_Wire_Mag      { quality = 2; price = 2284; };
-class ATMine_Range_Mag      { quality = 2; price = 2484; };
-class launch_O_Vorona_brown_F      { quality = 4; price = 9000; };
-class missiles_Vorona      { quality = 4; price = 8000; };
+class MiniGrenade      { quality = 1; price = 200; };
+class B_IR_Grenade      { quality = 1; price = 50; };
+class O_IR_Grenade      { quality = 1; price = 50; };
+class I_IR_Grenade      { quality = 1; price = 50; };
+class 1Rnd_HE_Grenade_shell      { quality = 1; price = 500; };
+class 3Rnd_HE_Grenade_shell      { quality = 1; price = 750; };
+class APERSBoundingMine_Range_Mag      { quality = 2; price = 1000; };
+class APERSMine_Range_Mag      { quality = 2; price = 900; };
+class APERSTripMine_Wire_Mag      { quality = 2; price = 900; };
+class ClaymoreDirectionalMine_Remote_Mag      { quality = 2; price = 1500; };
+class DemoCharge_Remote_Mag      { quality = 2; price = 2000; };
+class IEDLandBig_Remote_Mag      { quality = 2; price = 3500; };
+class IEDLandSmall_Remote_Mag      { quality = 2; price = 1900; };
+class IEDUrbanBig_Remote_Mag      { quality = 2; price = 3500; };
+class IEDUrbanSmall_Remote_Mag      { quality = 2; price = 1900; };
+class SatchelCharge_Remote_Mag      { quality = 2; price = 2000; };
+class SLAMDirectionalMine_Wire_Mag      { quality = 2; price = 2400; };
+class ATMine_Range_Mag      { quality = 2; price = 1800; };
+class launch_O_Vorona_brown_F      { quality = 4; price = 16000; };
+class missiles_Vorona      { quality = 3; price = 9000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////Arma 2 Weapons
@@ -1093,14 +1113,17 @@ class arifle_MX_SW_F      { quality = 1; price = 1620; };
 	///////////////////////////////////////////////////////////////////////////////
 	// Cessna
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Plane_Cessna									{ quality = 1; price = 16500; };
+	class Exile_Plane_Cessna									{ quality = 1; price = 8500; };
+	class GNT_C185T										{ quality = 1; price = 30000; };
+	class bwi_a3_at6b										{ quality = 4; price = 79000; };
+	class bwi_a3_at6b_cap										{ quality = 4; price = 71000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// An-2
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Plane_AN2_Green									{ quality = 2; price = 17000; };
-	class Exile_Plane_AN2_Stripe								{ quality = 2; price = 17000; };
-	class Exile_Plane_AN2_White									{ quality = 2; price = 17000; };
+	class Exile_Plane_AN2_Green									{ quality = 2; price = 10000; };
+	class Exile_Plane_AN2_Stripe								{ quality = 2; price = 10000; };
+	class Exile_Plane_AN2_White									{ quality = 2; price = 10000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Hatchback
@@ -1344,14 +1367,14 @@ class arifle_MX_SW_F      { quality = 1; price = 1620; };
 	///////////////////////////////////////////////////////////////////////////////
 	// HMMWV
 	///////////////////////////////////////////////////////////////////////////////
-	//class Exile_Car_HMMWV_M134_Desert 							{ quality = 5; price = 33000; };
-	//class Exile_Car_HMMWV_M134_Green 							{ quality = 5; price = 33000; };
-	//class Exile_Car_HMMWV_M2_Desert 							{ quality = 6; price = 40000; };
-	//class Exile_Car_HMMWV_M2_Green 								{ quality = 6; price = 40000; };
-	//class Exile_Car_HMMWV_MEV_Desert 							{ quality = 3; price = 21000; };
-	//class Exile_Car_HMMWV_MEV_Green 							{ quality = 3; price = 21000; };
-	//class Exile_Car_HMMWV_UNA_Desert 							{ quality = 3; price = 21000; };
-	//class Exile_Car_HMMWV_UNA_Green 							{ quality = 3; price = 21000; };
+	class Exile_Car_HMMWV_M134_Desert 							{ quality = 5; price = 33000; };
+	class Exile_Car_HMMWV_M134_Green 							{ quality = 5; price = 33000; };
+	class Exile_Car_HMMWV_M2_Desert 							{ quality = 6; price = 40000; };
+	class Exile_Car_HMMWV_M2_Green 								{ quality = 6; price = 40000; };
+	class Exile_Car_HMMWV_MEV_Desert 							{ quality = 3; price = 21000; };
+	class Exile_Car_HMMWV_MEV_Green 							{ quality = 3; price = 21000; };
+	class Exile_Car_HMMWV_UNA_Desert 							{ quality = 3; price = 21000; };
+	class Exile_Car_HMMWV_UNA_Green 							{ quality = 3; price = 21000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Tempest

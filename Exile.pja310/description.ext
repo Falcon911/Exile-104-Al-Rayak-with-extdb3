@@ -19,20 +19,13 @@ class Header
 {
     gameType = Survive; // Do NOT change this
     minPlayers = 1;
-    maxPlayers = 100;
+    maxPlayers = 90;
 };
 class RscTitles
 {
 	#include "VEMFr_client\gui\RscDisplayVEMFrClient.hpp"
 	#include "VEMFr_client\gui\RscDisplayBaseAttack.hpp"
 	
-};
-class CfgFunctions 
-{
-	#include "vcom\cfgFunctions.hpp"
-};
-class Extended_PreInit_EventHandlers {
-	VCM_CBASettings = call compile preprocessFileLineNumbers "Vcom\Functions\VCM_CBASettings.sqf";
 };
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -85,5 +78,10 @@ showHUD[] =
 
 #include "config.cpp"
 #include "CfgRemoteExec.hpp"
+#include "infiSTAR_defines.hpp"
+#include "infiSTAR_AdminMenu.hpp"
+#include "infiSTAR_chat.hpp"
+#include "infiSTAR_KeyBinds.hpp"
+#include "SM\TraderPlus\SM_TraderPlus.hpp"
 
 

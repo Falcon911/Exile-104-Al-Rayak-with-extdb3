@@ -86,6 +86,7 @@ class CUP_O_GAZ_Vodnik_PK_RU      { quality = 2; price = 49100; };
 class CUP_O_GAZ_Vodnik_AGS_RU      { quality = 2; price = 53100; };
 class CUP_O_GAZ_Vodnik_BPPU_RU      { quality = 3; price = 71100; };
 class CUP_O_GAZ_Vodnik_MedEvac_RU      { quality = 1; price = 27100; };
+class CUP_O_BM21_TKA					{ quality = 6; price = 309999; };
 
   ///// Tracked
 			class CUP_B_AAV_USMC      { quality = 3; price = 77160; };
@@ -129,24 +130,32 @@ class CUP_O_GAZ_Vodnik_MedEvac_RU      { quality = 1; price = 27100; };
             class CUP_B_T72_CDF                  { quality = 2; price = 112900; };
             class CUP_I_T72_NAPA                  { quality = 2; price = 112900; };
             class CUP_I_T72_RACS                  { quality = 2; price = 112900; };
-            //class CUP_B_M270_HE_USA      { quality = 5; price = 252635; };
+            class CUP_B_M270_HE_USA      { quality = 6; price = 302635; };
             //class CUP_B_M270_HE_USMC      { quality = 5; price = 252635; };
+			class CUP_O_T90_RU					{ quality = 4; price = 253550; };
             class CUP_B_ZSU23_CDF      { quality = 4; price = 117000; };
             class CUP_O_ZSU23_ChDKZ      { quality = 4; price = 117000; };
             class CUP_O_ZSU23_SLA      { quality = 4; price = 117000; };
             class CUP_O_ZSU23_TK      { quality = 4; price = 117000; };
 			class CUP_O_ZSU23_Afghan_TK      { quality = 3; price = 98000; };
 			class CUP_O_2S6_RU      { quality = 5; price = 120000; };
-			class CUP_B_M7Bradley_USA_D      { quality = 5; price = 126000; };
+			class CUP_B_M7Bradley_USA_D      { quality = 4; price = 106000; };
+			class CUP_B_M6LineBacker_USA_D      { quality = 5; price = 126000; };
+			class CUP_B_M6LineBacker_USA_W      { quality = 5; price = 126000; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	//CUP Helis
 	///////////////////////////////////////////////////////////////////////////////
 	class CUP_I_MH6J_RACS      { quality = 1; price = 21000; };
-	class CUP_O_Ka50_RU			{ quality = 5; price = 302055; };
+	class CUP_O_Ka50_DL_SLA			{ quality = 5; price = 302055; };
+	class CUP_O_Ka50_DL_RU			{ quality = 5; price = 302055; };
+	class CUP_O_Ka52_Blk_RU      	{ quality = 5; price = 305055; };
+	class CUP_O_Ka52_GreyCamo_RU    { quality = 5; price = 305055; };
 	
 class CUP_I_SA330_Puma_HC1_RACS      { quality = 1; price = 21000; };
 class CUP_B_SA330_Puma_HC2_BAF      { quality = 1; price = 21000; };
+class CUP_B_UH60M_Unarmed_FFV_US	{ quality = 1; price = 21000; };
+class CUP_B_UH60L_Unarmed_FFV_US	{ quality = 1; price = 23000; };
 class CUP_I_UH60L_Unarmed_FFV_Racs      { quality = 2; price = 21060; };
 class CUP_B_CH53E_VIV_GER      { quality = 2; price = 32600; };
 class CUP_B_Merlin_HC3_VIV_GB      { quality = 2; price = 32560; };
@@ -164,22 +173,25 @@ class CUP_I_CH47F_RACS      { quality = 2; price = 62530; };
 class CUP_I_CH47F_VIV_RACS      { quality = 2; price = 62530; };
 class CUP_B_UH1Y_Gunship_Dynamic_USMC      { quality = 3; price = 121060; };
 class CUP_B_MH60L_DAP_2x_USN      { quality = 4; price = 177060; };
+class CUP_B_MH60L_DAP_2x_US      { quality = 4; price = 177060; };
 class CUP_B_MH60L_DAP_4x_USN      { quality = 4; price = 201060; };
+class CUP_B_MH60L_DAP_4x_US      { quality = 4; price = 201060; };
 class CUP_B_MH60S_FFV_USMC      { quality = 2; price = 49035; };
 class CUP_B_UH60S_USN      { quality = 2; price = 53060; };
 class CUP_I_UH60L_FFV_RACS      { quality = 2; price = 49060; };
-class CUP_I_AH6J_RACS      { quality = 3; price = 67050; };
+class CUP_I_AH6J_RACS      { quality = 3; price = 167050; };
 	
 	///////////////////////////////////////////////////////////////////////////////
 	//CUP Planes
 	///////////////////////////////////////////////////////////////////////////////
 	class CUP_B_MV22_USMC      { quality = 3; price = 92580; };
 class CUP_B_MV22_VIV_USMC      { quality = 3; price = 110580; };
-class CUP_B_MV22_USMC_RAMPGUN      { quality = 3; price = 137580; };
+class CUP_B_MV22_USMC_RAMPGUN      { quality = 3; price = 117580; };
+class Cup_B_A10_DYN_USA				{ quality = 6; price = 300560; };
 class CUP_I_AV8B_DYN_AAF      { quality = 6; price = 300060; };
 class CUP_I_AV8B_DYN_USMC      { quality = 6; price = 300060; };
 class CUP_B_F35B_USMC      { quality = 6; price = 264380; };
-class CUP_B_AC47_Spooky_USA      { quality = 2; price = 122550; };
+class CUP_B_AC47_Spooky_USA      { quality = 2; price = 62550; };
 class CUP_I_C130J_Cargo_RACS      { quality = 2; price = 32620; };
 class CUP_C_C47_CIV      { quality = 1; price = 4550; };
 

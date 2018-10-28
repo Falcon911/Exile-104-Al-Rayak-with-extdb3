@@ -11,7 +11,8 @@
 			"CUP_O_UAZ_Open_TKA",
 			"CUP_B_T810_Unarmed_CZ_DES",
 			"CUP_B_HMMWV_Unarmed_USMC",
-			"CUP_B_HMMWV_Unarmed_USA"
+			"CUP_B_HMMWV_Unarmed_USA",
+"CUP_O_GAZ_Vodnik_MedEvac_RU"
 		};
 	};
 
@@ -91,7 +92,7 @@
 "CUP_O_GAZ_Vodnik_PK_RU",
 "CUP_O_GAZ_Vodnik_AGS_RU",
 "CUP_O_GAZ_Vodnik_BPPU_RU",
-"CUP_O_GAZ_Vodnik_MedEvac_RU"
+			"CUP_O_BM21_TKA"
 		};
 	};
 
@@ -108,10 +109,10 @@
             "CUP_O_M113_TKA",
             "CUP_B_M163_USA",
             "CUP_I_M163_RACS",
-            //"CUP_B_M1A1_DES_USMC",
-            //"CUP_B_M1A1_DES_US_Army",
-            //"CUP_B_M1A1_Woodland_USMC",
-            //"CUP_B_M1A1_Woodland_US_Army",
+            "CUP_B_M1A1_DES_USMC",
+            "CUP_B_M1A1_DES_US_Army",
+            "CUP_B_M1A1_Woodland_USMC",
+            "CUP_B_M1A1_Woodland_US_Army",
             //"CUP_B_M1A2_TUSK_MG_DES_USMC",
             //"CUP_B_M1A2_TUSK_MG_DES_US_Army",
             //"CUP_B_M1A2_TUSK_MG_USMC",
@@ -128,6 +129,9 @@
 			"CUP_B_FV510_GB_D_SLAT",
 			"CUP_B_MCV80_GB_D",
 			"CUP_B_MCV80_GB_D_SLAT",
+			"CUP_B_M6LineBacker_USA_D",
+			"CUP_B_M6LineBacker_USA_W",
+			"CUP_B_M7Bradley_USA_D",
             //"CUP_I_T34_NAPA",
             "CUP_I_T34_TK_GUE",
             "CUP_O_T34_TKA",
@@ -142,15 +146,15 @@
             //"CUP_B_T72_CDF",
             //"CUP_I_T72_NAPA",
             "CUP_I_T72_RACS",
-            //"CUP_B_M270_HE_USA",
+            "CUP_B_M270_HE_USA",
             //"CUP_B_M270_HE_USMC",
+			"CUP_O_T90_RU",
             //"CUP_B_ZSU23_CDF",
             //"CUP_O_ZSU23_ChDKZ",
             //"CUP_O_ZSU23_SLA",
             "CUP_O_ZSU23_TK",
 			"CUP_O_ZSU23_Afghan_TK",
-			"CUP_O_2S6_RU",
-			"CUP_B_M7Bradley_USA_D"
+			"CUP_O_2S6_RU"
 	};
 };
 
@@ -162,12 +166,17 @@
 		items[] =
 		{
 			"CUP_I_MH6J_RACS",
-			"CUP_O_Ka50_RU",
+			"CUP_O_Ka50_DL_SLA",
+			"CUP_O_Ka50_DL_RU",
+			"CUP_O_Ka52_Blk_RU",
+			"CUP_O_Ka52_GreyCamo_RU",
 			"CUP_I_SA330_Puma_HC1_RACS",
 			"CUP_B_SA330_Puma_HC2_BAF",
+			"CUP_B_UH60M_Unarmed_FFV_US",
+			"CUP_B_UH60L_Unarmed_FFV_US",
 			"CUP_I_UH60L_Unarmed_FFV_Racs",
 			"CUP_I_UH60L_FFV_RACS",
-			"CUP_B_CH53E_VIV_GER",
+			//"CUP_B_CH53E_VIV_GER",
 			"CUP_B_Merlin_HC3_Armed_GB",
 			"CUP_B_Merlin_HC3_VIV_GB",
 			"CUP_O_MI6T_CSAT_T",
@@ -183,7 +192,9 @@
 			"CUP_I_CH47F_VIV_RACS",
 			"CUP_B_UH1Y_Gunship_Dynamic_USMC",
 			"CUP_B_MH60L_DAP_2x_USN",
+			"CUP_B_MH60L_DAP_2x_US",
 			"CUP_B_MH60L_DAP_4x_USN",
+			"CUP_B_MH60L_DAP_4x_US",
 			"CUP_B_MH60S_FFV_USMC",
 			"CUP_B_UH60S_USN",
 			"CUP_I_AH6J_RACS"
@@ -202,6 +213,7 @@
 			"CUP_B_MV22_USMC",
 			"CUP_B_MV22_VIV_USMC",
 			"CUP_B_MV22_USMC_RAMPGUN",
+			"Cup_B_A10_DYN_USA",
 			"CUP_B_F35B_USMC",
 			"CUP_I_AV8B_DYN_AAF",
 			"CUP_I_AV8B_DYN_USMC"

@@ -13,12 +13,18 @@ private _crateList = [
 		// This array prevents people from selling a car by accident.
 		// Add to this with classnames of Vehicles/Crates you want to be able to be used in this script.
 		// Example: Crates are replaced with the SDV in the Underwater missions. Add them here if you want to.
+"CargoNet_01_box_F",
 	"Box_NATO_AmmoVeh_F",
 	"Box_NATO_Ammo_F",
-	"Box_NATO_Wps_F",
+	"box_NATO_AmmoOrd_F",
 	"Exile_Container_SupplyBox",
 	"B_supplyCrate_F",
+	"O_supplyCrate_F",
+	"I_CargoNet_01_ammo_F",
+	"O_CargoNet_01_ammo_F",
 	"I_CargoNET_01_F",
+	"Box_FIA_Support_F",
+	"Box_NATO_Wps_F",
 	"C_supplyCrate_F",
 	"IG_supplyCrate_F",
 	"Box_IND_AmmoVeh_F",
@@ -39,13 +45,9 @@ private _crateList = [
 	"Land_Pod_Heli_Transport_04_repair_black_F",
 	"Land_Pod_Heli_Transport_04_medevac_black_F",
 	"Land_Pod_Heli_Transport_04_bench_black_F",
-	 "Box_FIA_Ammo_F", 
-		 "Box_FIA_Support_F", 
-		 "Box_FIA_Wps_F", 
-		 "I_SupplyCrate_F", 		 
-		 "box_FIA_AMMMON_F",		 
-		 "Box_East_AmmoVeh_F",
-		 "box_NATO_AmmoOrd_F"
+	"Box_FIA_Ammo_F",
+	"Box_FIA_Wps_F", 
+	"I_SupplyCrate_F" 
 		];
 
 if (R3F_LOG_mutex_local_verrou) then

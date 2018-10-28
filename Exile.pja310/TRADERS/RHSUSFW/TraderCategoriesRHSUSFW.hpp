@@ -290,11 +290,11 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itembipod_ca.paa";
 		items[] =
 		{
-			"rhsusf_acc_grip1",
-			"rhsusf_acc_grip2",
-			"rhsusf_acc_grip2_tan",
-			"rhsusf_acc_grip3",
-			"rhsusf_acc_grip3_tan"
+			//"rhsusf_acc_grip1",
+			//"rhsusf_acc_grip2",
+			//"rhsusf_acc_grip2_tan",
+			//"rhsusf_acc_grip3",
+			//"rhsusf_acc_grip3_tan"
 
 		};
 	};
@@ -356,11 +356,13 @@
 			"rhsusf_acc_SpecterDR",
 			"rhsusf_acc_SpecterDR_OD",
 			"rhsusf_acc_SpecterDR_D",
-			"rhsusf_acc_SpecterDR_A_3d",
+			"rhsusf_acc_SpecterDR_A_3d",			
 			"rhsusf_acc_M8541",
 			"rhsusf_acc_M8541_low",
 			"rhsusf_acc_M8541_low_d",
-			"rhsusf_acc_M8541_low_wd"
+			"rhsusf_acc_M8541_low_wd",
+			"rhsusf_acc_su230a_mrds_c",
+			"rhsusf_acc_su230a_mrds"
 
 		};
 	};

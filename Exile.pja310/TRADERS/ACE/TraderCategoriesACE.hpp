@@ -21,10 +21,6 @@ class ACEMisc
 "ACE_Chemlight_IR",
 "ACE_DAGR",
 "ACE_Cellphone",
-"ACE_Clacker",
-"ACE_M26_Clacker",
-"ACE_DefusalKit",
-"ACE_DeadManSwitch",
 "ACE_gunbag",
 "ACE_gunbag_Tan",
 "ACE_EarPlugs",
@@ -94,6 +90,10 @@ class ACEMisc
 "ACE_HandFlare_Red",
 "ACE_HandFlare_Green",
 "ACE_HandFlare_Yellow",
+"ACE_Clacker",
+"ACE_M26_Clacker",
+"ACE_DefusalKit",
+"ACE_DeadManSwitch",
 "ACE_M14",
 "ACE_M84"
 		};

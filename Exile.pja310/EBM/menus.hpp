@@ -321,7 +321,12 @@
 				condition = "((ExileClientInteractionObject getvariable ['ExileIsLocked',1]) isEqualTo 0)";
 				action = "true spawn ExileClient_object_lock_toggle";
 			};
-
+			class AddALock : ExileAbstractAction
+			{
+				title = "Add a Lock";
+				condition = "call ExileClient_object_construction_lockAddShow";
+				action = "_this spawn ExileClient_object_construction_lockAdd";
+			};
 			class Unlock : ExileAbstractAction
 			{
 				title = "Unlock";

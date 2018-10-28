@@ -297,6 +297,9 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[]=
 		{
+			"20Rnd_AA12_Pellets",
+			"20Rnd_AA12_74Slug",
+			"500Rnd_762x51_Belt",
 "KA_15Rnd_45ACP_Mag",
 "KA_17Rnd_9x19_Mag",
 "KA_17Rnd_9x19_Subsonic_Mag",
@@ -370,6 +373,7 @@
 "KA_20Rnd_46x30_AP",
 "KA_20Rnd_46x30_APT",
 "KA_20Rnd_46x30_Subsonic",
+"7Rnd_50_AE",
 "KA_NTW20_3rnd_MK106_HEI",
 "KA_NTW20_3rnd_MK107_API",
 "KA_NTW20_3rnd_MK108_APT",
@@ -527,6 +531,8 @@
 "KA_20Rnd_STs_130_Ball",
 "KA_20Rnd_STs_130PT_SPR",
 "KA_20Rnd_STs_130PT2_Solid_Bronze_SPR",
-"KA_20Rnd_STs_130VPS_AP"
+"KA_20Rnd_STs_130VPS_AP",
+"10Rnd_BZ_762x39_API",
+"10Rnd_BP_762x39_AP"
 		};
 	};
